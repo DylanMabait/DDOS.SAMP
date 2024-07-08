@@ -1,4 +1,4 @@
-#AUTHOR SAMP NUDOS
+#AUTHOR SAMP WLASHIT
 import random
 import socket
 import threading
@@ -6,7 +6,7 @@ import os
 import sys
 import time
 
-###### MESSAGE MIKA ON TOP! #####
+###### MESSAGE WLASHIT ON TOP! #####
 os.system("clear")
 os.system("xdg-open https://discord.gg/8gmRVnRRwV")
 print("\u001b[35m Welcome to SAMP-NUDOS World")
@@ -22,8 +22,8 @@ while attemps < 100:
     username = input('Enter your username: ')
     password = input('Enter your password: ')
 
-    if username == 'NUDOS' and password == 'NUDOS':
-        print('You have successfully logged in Welcome to NUDOS!!')
+    if username == 'root' and password == 'WLASHIT':
+        print('You have successfully logged in Welcome MY NIGGA!!')
         break
     else:
         print('Incorrect credentials. Check if you have Caps lock on and try again.')
@@ -32,16 +32,18 @@ while attemps < 100:
 os.system("clear")
 
 print("""
-\u001b[35m
-	  AUTHOR TOOLS : SAMP NUDOS
-	╔═╗╔═╗╔╦╗╔═╗   ╔╗╔╦ ╦╔╦╗╔═╗╔═╗
-	╚═╗╠═╣║║║╠═╝───║║║║ ║ ║║║ ║╚═╗
-	╚═╝╩ ╩╩ ╩╩     ╝╚╝╚═╝═╩╝╚═╝╚═╝ V 1.5
+\ff1a1a[35m
+	  AUTHOR TOOL : DYLAN WLASHIT
+╔═══╦═══╦═╗╔═╦═══╗╔╗╔╗╔╦╗──╔═══╦═══╦╗─╔╦══╦════╗
+║╔═╗║╔═╗║║╚╝║║╔═╗║║║║║║║║──║╔═╗║╔═╗║║─║╠╣╠╣╔╗╔╗║
+║╚══╣║─║║╔╗╔╗║╚═╝║║║║║║║║──║║─║║╚══╣╚═╝║║║╚╝║║╚╝
+╚══╗║╚═╝║║║║║║╔══╝║╚╝╚╝║║─╔╣╚═╝╠══╗║╔═╗║║║──║║
+║╚═╝║╔═╗║║║║║║║───╚╗╔╗╔╣╚═╝║╔═╗║╚═╝║║─║╠╣╠╗─║║
+╚═══╩╝─╚╩╝╚╝╚╩╝────╚╝╚╝╚═══╩╝─╚╩═══╩╝─╚╩══╝─╚╝ V 1.5
 """)
 
 ip = str(input(" Target IP :"))
 port = int(input(" Target Port :"))
-choice = str(input(" (y/n) :"))
 times = int(input(" Time :"))
 threads = int(input(" Threads :"))
 def run():
